@@ -1,0 +1,45 @@
+{
+	"name": "sidemail",
+	"version": "0.1.6",
+	"description": "Node.js library for the Sidemail API.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sidemail/sidemail-sdk-js"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"homepage": "https://sidemail.io/",
+	"author": "Sidemail",
+	"license": "MIT",
+	"keywords": [
+		"sidemail",
+		"transactional",
+		"emails"
+	],
+	"dependencies": {
+		"node-fetch": "^2.3.0"
+	},
+	"files": [
+		"index.js",
+		"errors.js"
+	],
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"prettier": {
+		"useTabs": true,
+		"jsxBracketSameLine": true,
+		"arrowParens": "always",
+		"trailingComma": "es5"
+	},
+	"devDependencies": {
+		"babel-eslint": "^9.0.0",
+		"eslint": "^5.12.1",
+		"eslint-config-airbnb": "16.1.0",
+		"eslint-config-prettier": "^3.5.0",
+		"jest": "^25.2.7",
+		"prettier": "^1.16.1"
+	}
+}
