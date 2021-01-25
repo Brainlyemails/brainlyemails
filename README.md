@@ -21,7 +21,7 @@ First, the package needs to be configured with your project's API key, which you
 Here's how:
 
 ```javascript
-// Create Sidemail instance and set your API key.
+// Create Brainlyemails instance and set your API key.
 const configureBrainlyemails = require("Brainlyemails");
 const Brainlyemails = configureBrainlyemails({ apiKey: "xxxxx" });
 ```
