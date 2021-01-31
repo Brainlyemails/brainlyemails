@@ -62,7 +62,7 @@ The response will look like this:
 ### Send password reset email template
 
 ```javascript
-await sidemail.sendEmail({
+await Brainlyemails.sendEmail({
   toAddress: "user@email.com",
   fromAddress: "you@example.com",
   fromName: "Your app",
@@ -74,7 +74,7 @@ await sidemail.sendEmail({
 ### Schedule email delivery
 
 ```javascript
-await sidemail.sendEmail({
+await Brainlyemails.sendEmail({
   toAddress: "user@email.com",
   fromName: "Startup name",
   fromAddress: "your@startup.com",
